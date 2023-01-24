@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(162, 221, 131);
+}
+
+#qrcode {
+    width: 160px;
+    height: 160px;
+    margin-top: 15px;
+}
+
+#qr-code-generator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    /* height: 100vh;
+    width: 100vw; */
+}
+
+h1 {
+    padding-top: 40px;
+}
+
+form {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-right: 30px;
+}
+
+select {
+    font-size: 18px;
+    padding: 10px 7px 12px;
+}
+
+option {
+    font-size: 18px;
+}
+
+button {
+    display: block;
+    padding: 10px 8px 12px;
+    margin-bottom: 10px;
+}
+
+#qr-content {
+    padding: 10px 8px 12px;
+}
