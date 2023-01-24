@@ -40,12 +40,13 @@ label {
 }
 
 select {
-    font-size: 18px;
-    padding: 10px 7px 12px;
+    font-size: 15px;
+    padding: 6px 5px 2px;
 }
 
+
 option {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 button {
@@ -55,5 +56,5 @@ button {
 }
 
 #qr-content {
-    padding: 10px 8px 12px;
+    padding: 6px 5px 2px;
 }
